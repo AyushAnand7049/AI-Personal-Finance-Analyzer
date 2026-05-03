@@ -1,34 +1,5 @@
 # FinSight AI — Personal Finance Analyzer
 
-## Architecture
-
-```
-finance-analyzer/
-├── backend/
-│   ├── main.py                    # FastAPI app entrypoint
-│   ├── database.py                # SQLite connection + schema
-│   ├── seed.py                    # Sample data generator
-│   ├── requirements.txt
-│   ├── models/
-│   │   └── schemas.py             # Pydantic models
-│   ├── routes/
-│   │   ├── transactions.py        # POST /transaction, GET, DELETE, CSV upload
-│   │   ├── insights.py            # GET /insights
-│   │   ├── prediction.py          # GET /prediction
-│   │   └── advisor.py             # POST /ask
-│   └── services/
-│       ├── categorizer.py         # ML keyword-based categorization
-│       ├── insights_engine.py     # Pattern detection + insight generation
-│       ├── predictor.py           # Linear regression forecasting
-│       └── advisor.py             # RAG-style AI advisor (Claude API)
-└── frontend/
-    └── index.html                 # Full SPA dashboard
-```
-
----
-
-# Quick Start
-
 ### 1. Backend Setup
 
 ```bash
