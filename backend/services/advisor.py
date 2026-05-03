@@ -141,7 +141,7 @@ Provide a personalized, actionable answer in 3-4 paragraphs. Reference their act
     return prompt
 
 async def get_advisor_response(question: str) -> dict:
-    """Get AI advisor response using Claude API"""
+    """Get AI advisor response using API"""
     import httpx
     
     user_context = get_user_financial_context()
