@@ -5,7 +5,7 @@ from datetime import datetime
 from collections import defaultdict
 import json
 
-# Financial knowledge base (RAG simulation - in production, use FAISS + LangChain)
+# Financial knowledge base (RAG simulation - in production, use FAISS )
 FINANCE_TIPS = {
     "food": [
         "Meal prep on weekends to cut weekday food delivery costs by up to 60%.",
