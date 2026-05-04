@@ -37,16 +37,16 @@ python -m http.server 3000
 
 ### 3. Configure AI Advisor 
 
-Add your Anthropic API key to use Claude as the advisor:
+Add your  API key to use AI as the advisor:
 
 ```bash
 # Set environment variable
-export ANTHROPIC_API_KEY="your-key-here"
+export API_KEY="your-key-here"
 ```
 
 Or create a `.env` file in `backend/`:
 ```
-ANTHROPIC_API_KEY=your-key-here
+API_KEY=your-key-here
 ```
 
 > Without an API key, the advisor uses rule-based fallback responses.
